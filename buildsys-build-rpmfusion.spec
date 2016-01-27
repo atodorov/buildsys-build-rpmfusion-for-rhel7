@@ -3,7 +3,7 @@
 Name:           buildsys-build-%{repo}
 Epoch:          11
 Version:        7
-Release:        1.4
+Release:        1.5
 Summary:        Tools and files used by the %{repo} buildsys 
 
 Group:          Development/Tools
@@ -86,6 +86,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+
+* Wed Jan 27 2016 Alexander Todorov <atodorov@redhat.com> - 11:7-1.5
+- update for kernel-3.10.0-327.4.5.el7
 
 * Sat Nov 21 2015 Alexander Todorov <atodorov@redhat.com> - 11:7-1.4
 - update for kernel-3.10.0-327.el7
